@@ -151,6 +151,9 @@ color: rgba(54, 53, 53, 0.808);
 /* brands end */
 
 /* categories start */
+.categories{
+    width: 100%;
+}
 .categories h1{
     margin-top: 80px;
     margin-left: 15px;

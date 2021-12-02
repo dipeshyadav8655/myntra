@@ -149,10 +149,6 @@ color: rgba(54, 53, 53, 0.808);
 /* brands end */
 
 /* categories start */
-/* .categories{
-    width: 100%;
-    border: 5px solid red;
-} */
 .categories h1{
     margin-top: 80px;
     margin-left: 15px;
@@ -166,20 +162,20 @@ color: rgba(54, 53, 53, 0.808);
 .categories_images{
     width: 100%;
     margin: 15px 15px;
-    /* display: flex; */
-    /* justify-content: space-around; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.categories_images figure div{
-    display: inline-block;
-}
-.categories_images figure div img{
+/* .categories_images div{
+} */
+.categories_images  div img{
     width: 200px;
     height: 250px;
     margin: 25px;
     border-radius: 50%;
 }
 
-.categories_images figure figcaption{
+.categories_images figcaption{
     text-align: center;
 }
 /* categories end */

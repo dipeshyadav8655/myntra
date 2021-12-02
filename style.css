@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing:border-box;
 }
 .header{
@@ -149,10 +149,10 @@ color: rgba(54, 53, 53, 0.808);
 /* brands end */
 
 /* categories start */
-.categories{
+/* .categories{
     width: 100%;
     border: 5px solid red;
-}
+} */
 .categories h1{
     margin-top: 80px;
     margin-left: 15px;
@@ -164,13 +164,13 @@ color: rgba(54, 53, 53, 0.808);
     color: rgba(54, 53, 53, 0.808);
 }
 .categories_images{
-    width: 98%;
+    width: 100%;
     margin: 15px 15px;
-    display: flex;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 .categories_images figure div{
     display: inline-block;
-    
 }
 .categories_images figure div img{
     width: 200px;
